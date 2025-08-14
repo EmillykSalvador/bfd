@@ -3,38 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula2</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="id">
     <script>
-        var num1 = prompt("jogador 1 digite um numero");
+        var num1 = prompt("digite a primeira nota");
         num1 = parseInt(num1);
-        var num2 = prompt("jogador 2 digite um numero");
+        var num2 = prompt("digite a segunda nota");
         num2 = parseInt(num2);
-        if (num1==num2) {
-            alert("empate")
+        var media =  (num1+num2)/2
+        if (num1==0) {
+            alert("reprovado");
         } 
-        else{
-            var c = parseInt(Math.random());
-            alert("O número sorteado foi: "+ c)
-            if (c==0) {
-                 if (num1>num2) {
-                    alert("Jogador 2 ganhou")
-                } else {
-                    alert("Jogador 1 ganhou")
-                }
+        if (num2==0) {
+            alert("reprovado");
+        } else {
+            if (media>=6) {
+                alert("Aprovado")
             } else {
-                if (num1>num2) {
-                    alert("Jogador 1 ganhou")
-                } else {
-                    alert("Jogador 2 ganhou")
-                }
-                
-                } 
+                alert("reprovado")
             }
-        
-
+        }
     </script>
 </body>
 </html>
