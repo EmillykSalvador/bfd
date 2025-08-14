@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <input type="text" id="mensagem" placeholder="escreva uma mensagem">  
+    <button onclick="alert(document.getElementById('mensagem').value)">Exibir</button>
+
+    <input type="text" id="mensagem" placeholder="escreva uma mensagem">  
+    <button onclick="imprime1">Exibir</button>
+
+    <input type="text" id="mensagem" placeholder="escreva uma mensagem">  
+    <button onclick="imprime2">Exibir</button>
+
+    <input type="text" id="mensagem" placeholder="escreva uma mensagem">  
+    <button onclick="imprime3">Exibir</button>
+    <script>
+        function imprime1() {
+            var texto = document.querySelector('#textoUsuario').value;
+            alert(texto)
+        }
+        function imprime2() {
+            alert('${outro.value}');
+        }
+    </script>
+</body>
+</html>
