@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula2</title>
+</head>
+<body>
+    <div class="id">
+    <script>
+        var num1 = prompt("jogador 1 digite um numero");
+        num1 = parseInt(num1);
+        var num2 = prompt("jogador 2 digite um numero");
+        num2 = parseInt(num2);
+        if (num1==num2) {
+            alert("empate")
+        } 
+        else{
+            var c = parseInt(Math.random());
+            alert("O número sorteado foi: "+ c)
+            if (c==0) {
+                 if (num1>num2) {
+                    alert("Jogador 2 ganhou")
+                } else {
+                    alert("Jogador 1 ganhou")
+                }
+            } else {
+                if (num1>num2) {
+                    alert("Jogador 1 ganhou")
+                } else {
+                    alert("Jogador 2 ganhou")
+                }
+                
+                } 
+            }
+        
+
+    </script>
+</body>
+</html>

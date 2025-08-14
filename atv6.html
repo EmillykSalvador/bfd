@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num1 = prompt("digite a primeira nota");
+        num1 = parseInt(num1);
+        var num2 = prompt("digite a segunda nota");
+        num2 = parseInt(num2);
+        var media =  (num1+num2)/2
+        if (num1==0) {
+            alert("reprovado");
+        } 
+        if (num2==0) {
+            alert("reprovado");
+        } else {
+            if (media>=6) {
+                alert("Aprovado")
+            } else {
+                alert("reprovado")
+            }
+        }
+    </script>
+</body>
+</html>
