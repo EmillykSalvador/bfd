@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(75, 63, 212);
+    height: 100px;
+    margin: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    margin: 10px;
+}
+#tudo{
+     text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;  
+    width: 30%;    
+}
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+#list{
+    text-align: center;
+}
+.deletarButton {
+    background-color: #dc322f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.alterarButton {
+    background-color: #2fdc69;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

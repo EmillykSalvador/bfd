@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>alunos</title>
+</head>
+<body>
+    <header><h1>CRUD de Alunos</h1></header>
+    <div id="tudo">
+        <h2>Cadastrar Aluno</h2>
+        <div id="p1">
+            <p>Nome</p>
+            <input type="text" id="nome" required>
+        </div>
+        <div id="p2">
+            <p>E-mail</p>
+            <input type="text" id="email" required>
+        </div>
+        <div id="p3">
+            <p>curso</p>
+            <input type="text" id="curso" required>
+        </div>
+        <button type="submit" onclick="efetuarcadastro()">Adicionar</button>
+    </div>
+    <div id="list">
+     <h3>Listagem de alunos</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Curso</th>
+                    <th>ação</th>
+                    <th>editar informações</th>
+                </tr>
+            </thead>
+            <tbody id="addi">
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
