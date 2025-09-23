@@ -1,0 +1,38 @@
+$cor: red;
+p{
+
+}
+.texto1{
+    font-size: 1.7cm;
+    color: red;
+}
+.texto2{
+    font-size: 1.2cm;
+    color: aqua;
+}
+.texto3{
+    font-size: 1cm;
+    color: palevioletred;
+}
+.caixa{
+    ul{
+        li{
+            color: aquamarine;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: rgb(207, 50, 142);
+}
+a:hover{
+    color: rgb(84, 16, 173);
+}
+
+.titulo{
+    font-size: 2cm;
+}
+@import 'secao1';
+@import 'secao2';
+@import 'secao3';
