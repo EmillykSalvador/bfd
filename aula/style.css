@@ -1,0 +1,16 @@
+body{
+    background-color: palevioletred;
+}
+img{
+    width: 20%;
+    margin: 50px;
+}
+.f{
+    margin: 160px;
+    text-decoration: dotted;
+    
+}
+footer{
+    width: 20%;
+    justify-items: center;
+}
