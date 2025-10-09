@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snake — Tecinfo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/maca.png" type="image/png">
+</head>
+<body>
+  <div class="container">
+    <header class="top">
+      <h1>Snake 🐍</h1>
+      <div class="score" aria-live="polite">
+        Pontuação: <span id="score">0</span>
+      </div>
+    </header>
+
+    <main>
+      <canvas id="game" width="600" height="600" aria-label="Tela do jogo Snake"></canvas>
+
+      <section class="controls" aria-label="Controles do jogo">
+        <button id="start" class="btn">Iniciar</button>
+        <button id="pause" class="btn">Pausar</button>
+        <button id="restart" class="btn">Reiniciar</button>
+
+        <label for="speed">Velocidade:</label>
+        <select id="speed" class="btn select-speed" aria-label="Selecionar velocidade do jogo">
+          <option value="160">Lento</option>
+          <option value="120" selected>Médio</option>
+          <option value="80">Rápido</option>
+          <option value="50">Muito rápido</option>
+        </select>
+      </section>
+
+      <p class="hint">Use as setas ← ↑ → ↓ ou WASD para controlar a cobrinha.</p>
+    </main>
+
+    <footer>
+      <small>&copy; 2025 Tecinfo — Exemplo didático</small>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
